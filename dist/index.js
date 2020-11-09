@@ -1,0 +1,1 @@
+const express=require("express"),app=express();app.get("/home",function(e,o){console.log("Home api called...")}),app.listen(8e3,function(){console.log("Running on port 8000...")});
