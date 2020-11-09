@@ -20,7 +20,7 @@ function minify_css(callback){
 };
 
 function compress_image(callback){
-    gulp.src('./images/*').pipe(imagemin()).pipe(gulp.dest('./dist'));
+    gulp.src('./images/*').pipe(imagemin()).pipe(gulp.dest('./dist/images'));
     callback();
 }
 
